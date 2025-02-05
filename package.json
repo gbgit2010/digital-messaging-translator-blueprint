@@ -7,7 +7,7 @@
     "doc": "docs"
   },
   "scripts": {
-    "start": "node run-azure.js"
+    "start": "node print.js"
   },
   "repository": {
     "type": "git",
