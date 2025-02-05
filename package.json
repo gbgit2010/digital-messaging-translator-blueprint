@@ -2,7 +2,7 @@
   "name": "chat-translator",
   "version": "1.0.0",
   "description": "",
-  "main": "run-local.js",
+  "main": "run-azure.js",
   "directories": {
     "doc": "docs"
   },
