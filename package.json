@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "description": "",
   "main": "run-azure.js",
+  "start": "node run-azure.js",
   "directories": {
     "doc": "docs"
   },
