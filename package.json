@@ -2,13 +2,12 @@
   "name": "chat-translator",
   "version": "1.0.0",
   "description": "",
-  "main": "run-azure.js",
-  "start": "node run-azure.js",
+  "main": "run-azure.js",  
   "directories": {
     "doc": "docs"
   },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node run-azure.js"
   },
   "repository": {
     "type": "git",
