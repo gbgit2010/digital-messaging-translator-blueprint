@@ -29,6 +29,7 @@ const httpsServer = https.createServer(credentials, app);
 
 app.post('/translate', (req, res) => {
     const body = req.body;
+    console.log("gb_body"+JSON.stringify(body))
     const params = {
         Text: body.raw_text,
         SourceLanguageCode: body.source_language,
