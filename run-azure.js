@@ -5,6 +5,8 @@ const axios = require('axios');
 require('dotenv').config();
 const cors = require('cors');
 
+console.log("This is printed in the browser console.");
+
 // Azure Translator service configuration
 const AZURE_TRANSLATOR_ENDPOINT = process.env.AZURE_TRANSLATOR_ENDPOINT;
 const AZURE_TRANSLATOR_KEY = process.env.AZURE_TRANSLATOR_KEY;
